@@ -54,7 +54,6 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )
@@ -118,8 +117,8 @@ const educationInfo = {
       logo: require("./assets/images/Universitas-Indonesia-Logo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "2021-2025",
-      desc: "cGPA: 3,92. Took courses about Data Structure and Algorithm, Operating Systems, and Database Systems.",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "cGPA: 3,92",
+      descBullets: ["Took courses about Data Structure and Algorithm, Operating Systems, and Database Systems."]
     }
   ]
 };
@@ -148,7 +147,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -277,7 +276,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
